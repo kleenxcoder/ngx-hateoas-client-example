@@ -32,8 +32,8 @@ export class AppComponent implements OnInit {
 
     hateoasConfig.configure({
       http: {
-        rootUrl: 'http://localhost:8080/rest-services/'
-        // rootUrl: 'https://dev-backend.pflegezeit24.at/rest-services/'
+        // rootUrl: 'http://localhost:8080/rest-services/'
+        rootUrl: 'https://dev-backend.pflegezeit24.at/rest-services/'
       },
       useTypes: {
           resources: [Patient, Agency, PatientProjection]
